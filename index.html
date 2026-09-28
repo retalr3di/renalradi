@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>إلى معلماتي الغاليات | يوم المعلم</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <div class="hero-decoration">✦</div>
+
+        <p class="eyebrow">بمناسبة يوم المعلم</p>
+
+        <h1>إلى معلماتي الغاليات</h1>
+
+        <p class="hero-text">
+            خمس وثلاثون حكاية من الحب والامتنان،
+            ورسائل صغيرة تحمل شكراً كبيراً. 🤍
+        </p>
+
+        <div class="hero-line"></div>
+
+        <a href="#teachers" class="start-button">
+            اكتشفي رسائل الشكر
+            <span>↓</span>
+        </a>
+
+        <div class="hero-flower flower-one">🌸</div>
+        <div class="hero-flower flower-two">🌷</div>
+    </header>
+
+    <main id="teachers">
+
+        <section class="teachers-section">
+
+            <div class="section-heading">
+                <span>✧</span>
+                <h2>إلى كل معلمة بصمة</h2>
+                <span>✧</span>
+            </div>
+
+            <p class="section-description">
+                اختاري اسم معلمتكِ، وافتحي لها رسالة من القلب.
+            </p>
+
+            <div class="teachers-container" id="teachersContainer">
+                <!-- البطاقات تظهر تلقائياً بواسطة JavaScript -->
+            </div>
+
+        </section>
+
+        <section class="ending">
+
+            <div class="ending-flower">🌷</div>
+
+            <p class="ending-small">إلى من يستحقن كل الشكر</p>
+
+            <h2>شكراً لكنّ من القلب</h2>
+
+            <p class="ending-text">
+                قد تنتهي سنوات الدراسة، لكن الكلمات الجميلة
+                والمواقف الطيبة والأثر الذي تركتنه فينا
+                سيبقى معنا ما حيينا.
+            </p>
+
+            <div class="ending-signature">
+                بكل الحب والتقدير 🤍
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- نافذة رسالة المعلمة -->
+    <div class="popup" id="teacherPopup"
+         role="dialog" aria-modal="true"
+         aria-labelledby="popupName">
+
+        <div class="popup-box">
+
+            <button class="close-button"
+                    id="closeButton"
+                    aria-label="إغلاق">
+                ×
+            </button>
+
+            <div class="popup-flower">🌸</div>
+
+            <p class="popup-eyebrow">رسالة صغيرة من القلب إلى</p>
+
+            <h2 id="popupName">اسم المعلمة</h2>
+
+            <div class="popup-line"></div>
+
+            <p id="popupMessage" class="popup-message"></p>
+
+            <div class="popup-heart">♡</div>
+
+            <button class="back-button" id="backButton">
+                بكل الحب، شكراً لكِ
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
